@@ -174,7 +174,7 @@ class Tokenizer
 		{
 			$char = $stringHandler->getNextChar();
 
-			if($this->isCharUnwonted())
+			if($this->isCharUnwonted($char))
 			{
 				continue;
 			}
